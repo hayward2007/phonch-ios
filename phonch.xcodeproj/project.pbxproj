@@ -7,13 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4D3A2AA22C67B938002B4469 /* UserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D3A2AA12C67B938002B4469 /* UserView.swift */; };
 		4D648B892C67299500A79BCD /* phonchApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D648B882C67299500A79BCD /* phonchApp.swift */; };
-		4D648B8B2C67299500A79BCD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D648B8A2C67299500A79BCD /* ContentView.swift */; };
-		4D648B8D2C67299600A79BCD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D648B8C2C67299600A79BCD /* Assets.xcassets */; };
 		4D648B902C67299600A79BCD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D648B8F2C67299600A79BCD /* Preview Assets.xcassets */; };
 		4D648B9A2C67299600A79BCD /* phonchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D648B992C67299600A79BCD /* phonchTests.swift */; };
 		4D648BA42C67299600A79BCD /* phonchUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D648BA32C67299600A79BCD /* phonchUITests.swift */; };
 		4D648BA62C67299600A79BCD /* phonchUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D648BA52C67299600A79BCD /* phonchUITestsLaunchTests.swift */; };
+		4D648BBC2C672ECD00A79BCD /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D648BBB2C672ECD00A79BCD /* HomeView.swift */; };
+		4D648BBE2C673BB800A79BCD /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D648BBD2C673BB800A79BCD /* Colors.xcassets */; };
+		4D648BC02C673BDF00A79BCD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D648BBF2C673BDF00A79BCD /* Images.xcassets */; };
+		4D648BCE2C673FCD00A79BCD /* SUIT-Thin.otf in Resources */ = {isa = PBXBuildFile; fileRef = 4D648BC52C673FCD00A79BCD /* SUIT-Thin.otf */; };
+		4D648BCF2C673FCD00A79BCD /* SUIT-ExtraBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 4D648BC62C673FCD00A79BCD /* SUIT-ExtraBold.otf */; };
+		4D648BD02C673FCD00A79BCD /* SUIT-ExtraLight.otf in Resources */ = {isa = PBXBuildFile; fileRef = 4D648BC72C673FCD00A79BCD /* SUIT-ExtraLight.otf */; };
+		4D648BD12C673FCD00A79BCD /* SUIT-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 4D648BC82C673FCD00A79BCD /* SUIT-Bold.otf */; };
+		4D648BD22C673FCD00A79BCD /* SUIT-SemiBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 4D648BC92C673FCD00A79BCD /* SUIT-SemiBold.otf */; };
+		4D648BD32C673FCD00A79BCD /* SUIT-Heavy.otf in Resources */ = {isa = PBXBuildFile; fileRef = 4D648BCA2C673FCD00A79BCD /* SUIT-Heavy.otf */; };
+		4D648BD42C673FCD00A79BCD /* SUIT-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 4D648BCB2C673FCD00A79BCD /* SUIT-Medium.otf */; };
+		4D648BD52C673FCD00A79BCD /* SUIT-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 4D648BCC2C673FCD00A79BCD /* SUIT-Light.otf */; };
+		4D648BD62C673FCD00A79BCD /* SUIT-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 4D648BCD2C673FCD00A79BCD /* SUIT-Regular.otf */; };
+		4D648BDB2C67538500A79BCD /* ChallengeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D648BDA2C67538500A79BCD /* ChallengeView.swift */; };
+		4D648BDD2C67553800A79BCD /* SandBoxView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D648BDC2C67553800A79BCD /* SandBoxView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,16 +47,30 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4D3A2AA12C67B938002B4469 /* UserView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserView.swift; sourceTree = "<group>"; };
 		4D648B852C67299500A79BCD /* phonch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = phonch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D648B882C67299500A79BCD /* phonchApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = phonchApp.swift; sourceTree = "<group>"; };
-		4D648B8A2C67299500A79BCD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		4D648B8C2C67299600A79BCD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4D648B8F2C67299600A79BCD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		4D648B952C67299600A79BCD /* phonchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = phonchTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D648B992C67299600A79BCD /* phonchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = phonchTests.swift; sourceTree = "<group>"; };
 		4D648B9F2C67299600A79BCD /* phonchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = phonchUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D648BA32C67299600A79BCD /* phonchUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = phonchUITests.swift; sourceTree = "<group>"; };
 		4D648BA52C67299600A79BCD /* phonchUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = phonchUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		4D648BBB2C672ECD00A79BCD /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		4D648BBD2C673BB800A79BCD /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
+		4D648BBF2C673BDF00A79BCD /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		4D648BC52C673FCD00A79BCD /* SUIT-Thin.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SUIT-Thin.otf"; sourceTree = "<group>"; };
+		4D648BC62C673FCD00A79BCD /* SUIT-ExtraBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SUIT-ExtraBold.otf"; sourceTree = "<group>"; };
+		4D648BC72C673FCD00A79BCD /* SUIT-ExtraLight.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SUIT-ExtraLight.otf"; sourceTree = "<group>"; };
+		4D648BC82C673FCD00A79BCD /* SUIT-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SUIT-Bold.otf"; sourceTree = "<group>"; };
+		4D648BC92C673FCD00A79BCD /* SUIT-SemiBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SUIT-SemiBold.otf"; sourceTree = "<group>"; };
+		4D648BCA2C673FCD00A79BCD /* SUIT-Heavy.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SUIT-Heavy.otf"; sourceTree = "<group>"; };
+		4D648BCB2C673FCD00A79BCD /* SUIT-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SUIT-Medium.otf"; sourceTree = "<group>"; };
+		4D648BCC2C673FCD00A79BCD /* SUIT-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SUIT-Light.otf"; sourceTree = "<group>"; };
+		4D648BCD2C673FCD00A79BCD /* SUIT-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SUIT-Regular.otf"; sourceTree = "<group>"; };
+		4D648BD92C67442300A79BCD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4D648BDA2C67538500A79BCD /* ChallengeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChallengeView.swift; sourceTree = "<group>"; };
+		4D648BDC2C67553800A79BCD /* SandBoxView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SandBoxView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,9 +121,10 @@
 		4D648B872C67299500A79BCD /* phonch */ = {
 			isa = PBXGroup;
 			children = (
+				4D648BD92C67442300A79BCD /* Info.plist */,
+				4D648BC12C673BEC00A79BCD /* Assets */,
+				4D648BB92C672E8500A79BCD /* Views */,
 				4D648B882C67299500A79BCD /* phonchApp.swift */,
-				4D648B8A2C67299500A79BCD /* ContentView.swift */,
-				4D648B8C2C67299600A79BCD /* Assets.xcassets */,
 				4D648B8E2C67299600A79BCD /* Preview Content */,
 			);
 			path = phonch;
@@ -125,6 +153,43 @@
 				4D648BA52C67299600A79BCD /* phonchUITestsLaunchTests.swift */,
 			);
 			path = phonchUITests;
+			sourceTree = "<group>";
+		};
+		4D648BB92C672E8500A79BCD /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				4D648BBB2C672ECD00A79BCD /* HomeView.swift */,
+				4D648BDA2C67538500A79BCD /* ChallengeView.swift */,
+				4D648BDC2C67553800A79BCD /* SandBoxView.swift */,
+				4D3A2AA12C67B938002B4469 /* UserView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		4D648BC12C673BEC00A79BCD /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				4D648BC42C673F8B00A79BCD /* Fonts */,
+				4D648BBD2C673BB800A79BCD /* Colors.xcassets */,
+				4D648BBF2C673BDF00A79BCD /* Images.xcassets */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		4D648BC42C673F8B00A79BCD /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				4D648BC82C673FCD00A79BCD /* SUIT-Bold.otf */,
+				4D648BC62C673FCD00A79BCD /* SUIT-ExtraBold.otf */,
+				4D648BC72C673FCD00A79BCD /* SUIT-ExtraLight.otf */,
+				4D648BCA2C673FCD00A79BCD /* SUIT-Heavy.otf */,
+				4D648BCC2C673FCD00A79BCD /* SUIT-Light.otf */,
+				4D648BCB2C673FCD00A79BCD /* SUIT-Medium.otf */,
+				4D648BCD2C673FCD00A79BCD /* SUIT-Regular.otf */,
+				4D648BC92C673FCD00A79BCD /* SUIT-SemiBold.otf */,
+				4D648BC52C673FCD00A79BCD /* SUIT-Thin.otf */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,8 +296,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4D648BD32C673FCD00A79BCD /* SUIT-Heavy.otf in Resources */,
+				4D648BBE2C673BB800A79BCD /* Colors.xcassets in Resources */,
+				4D648BD22C673FCD00A79BCD /* SUIT-SemiBold.otf in Resources */,
+				4D648BCE2C673FCD00A79BCD /* SUIT-Thin.otf in Resources */,
+				4D648BCF2C673FCD00A79BCD /* SUIT-ExtraBold.otf in Resources */,
+				4D648BC02C673BDF00A79BCD /* Images.xcassets in Resources */,
+				4D648BD52C673FCD00A79BCD /* SUIT-Light.otf in Resources */,
+				4D648BD62C673FCD00A79BCD /* SUIT-Regular.otf in Resources */,
+				4D648BD02C673FCD00A79BCD /* SUIT-ExtraLight.otf in Resources */,
+				4D648BD42C673FCD00A79BCD /* SUIT-Medium.otf in Resources */,
+				4D648BD12C673FCD00A79BCD /* SUIT-Bold.otf in Resources */,
 				4D648B902C67299600A79BCD /* Preview Assets.xcassets in Resources */,
-				4D648B8D2C67299600A79BCD /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,7 +332,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4D648B8B2C67299500A79BCD /* ContentView.swift in Sources */,
+				4D648BDB2C67538500A79BCD /* ChallengeView.swift in Sources */,
+				4D648BBC2C672ECD00A79BCD /* HomeView.swift in Sources */,
+				4D3A2AA22C67B938002B4469 /* UserView.swift in Sources */,
+				4D648BDD2C67553800A79BCD /* SandBoxView.swift in Sources */,
 				4D648B892C67299500A79BCD /* phonchApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -425,6 +503,7 @@
 				DEVELOPMENT_TEAM = JYNKL4T4V4;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = phonch/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -454,6 +533,7 @@
 				DEVELOPMENT_TEAM = JYNKL4T4V4;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = phonch/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

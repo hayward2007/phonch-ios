@@ -8,10 +8,11 @@
 import SwiftUI
 
 @main
-struct phonchApp: App {
+ struct phonchApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            HomeView()
+
         }
     }
 }

@@ -30,6 +30,7 @@
 		4D648BD62C673FCD00A79BCD /* SUIT-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 4D648BCD2C673FCD00A79BCD /* SUIT-Regular.otf */; };
 		4D648BDB2C67538500A79BCD /* ChallengeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D648BDA2C67538500A79BCD /* ChallengeView.swift */; };
 		4D648BDD2C67553800A79BCD /* SandBoxView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D648BDC2C67553800A79BCD /* SandBoxView.swift */; };
+		4DF0FF3C2C683C4900CA510B /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DF0FF3B2C683C4900CA510B /* Launch Screen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -77,6 +78,7 @@
 		4D648BD92C67442300A79BCD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4D648BDA2C67538500A79BCD /* ChallengeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChallengeView.swift; sourceTree = "<group>"; };
 		4D648BDC2C67553800A79BCD /* SandBoxView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SandBoxView.swift; sourceTree = "<group>"; };
+		4DF0FF3B2C683C4900CA510B /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -174,6 +176,7 @@
 		4D648BB92C672E8500A79BCD /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				4DF0FF3B2C683C4900CA510B /* Launch Screen.storyboard */,
 				4D648BBB2C672ECD00A79BCD /* HomeView.swift */,
 				4D648BDA2C67538500A79BCD /* ChallengeView.swift */,
 				4D648BDC2C67553800A79BCD /* SandBoxView.swift */,
@@ -323,6 +326,7 @@
 				4D3A2AA82C67EA14002B4469 /* upper_cut.m4a in Resources */,
 				4D648BC02C673BDF00A79BCD /* Images.xcassets in Resources */,
 				4D648BD52C673FCD00A79BCD /* SUIT-Light.otf in Resources */,
+				4DF0FF3C2C683C4900CA510B /* Launch Screen.storyboard in Resources */,
 				4D648BD62C673FCD00A79BCD /* SUIT-Regular.otf in Resources */,
 				4D648BD02C673FCD00A79BCD /* SUIT-ExtraLight.otf in Resources */,
 				4D648BD42C673FCD00A79BCD /* SUIT-Medium.otf in Resources */,
@@ -524,11 +528,15 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = phonch/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Phonch;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.healthcare-fitness";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -536,9 +544,13 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = pathFinder.phonch;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -554,11 +566,15 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = phonch/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Phonch;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.healthcare-fitness";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -566,9 +582,13 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = pathFinder.phonch;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

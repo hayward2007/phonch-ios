@@ -25,9 +25,8 @@ struct ChallengeView: View {
     @State private var isHook = false;
     @State private var isBody = false;
     @State private var started = false;
-    @State private var ended = true;
+    @State private var ended = false;
     @State private var leftTime = 60;
-//    @State private var ended = false;
     
     @State private var player: AVAudioPlayer?
     @State private var selectedSound: String = ""

@@ -46,17 +46,17 @@ struct UserView: View {
             
             ScrollView() {
                 VStack(alignment: .leading, spacing: 12) {
-                    history(record: 10, date: "2024 07 26")
-                    history(record: 10, date: "2024 07 26")
-                    history(record: 10, date: "2024 07 26")
-                    history(record: 10, date: "2024 07 26")
-                    history(record: 10, date: "2024 07 26")
-                    history(record: 10, date: "2024 07 26")
-                    history(record: 10, date: "2024 07 26")
-                    history(record: 10, date: "2024 07 26")
-                    history(record: 10, date: "2024 07 26")
-                    history(record: 10, date: "2024 07 26")
-                    history(record: 10, date: "2024 07 26")
+                    history(record: 100, date: "2024 07 26")
+                    history(record: 114, date: "2024 07 25")
+                    history(record: 234, date: "2024 07 24")
+                    history(record: 14, date: "2024 07 23")
+                    history(record: 134, date: "2024 07 22")
+                    history(record: 734, date: "2024 07 21")
+                    history(record: 234, date: "2024 07 19")
+                    history(record: 246, date: "2024 07 17")
+                    history(record: 596, date: "2024 07 16")
+                    history(record: 456, date: "2024 07 15")
+                    history(record: 234, date: "2024 07 14")
                 }.padding([.horizontal], 24)
             }.frame(maxHeight: .infinity)
             

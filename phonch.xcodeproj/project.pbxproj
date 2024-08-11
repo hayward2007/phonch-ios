@@ -31,6 +31,7 @@
 		4D648BDB2C67538500A79BCD /* ChallengeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D648BDA2C67538500A79BCD /* ChallengeView.swift */; };
 		4D648BDD2C67553800A79BCD /* SandBoxView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D648BDC2C67553800A79BCD /* SandBoxView.swift */; };
 		4DF0FF3C2C683C4900CA510B /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DF0FF3B2C683C4900CA510B /* Launch Screen.storyboard */; };
+		4DF0FF3E2C68423F00CA510B /* HistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DF0FF3D2C68423F00CA510B /* HistoryView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -79,6 +80,7 @@
 		4D648BDA2C67538500A79BCD /* ChallengeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChallengeView.swift; sourceTree = "<group>"; };
 		4D648BDC2C67553800A79BCD /* SandBoxView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SandBoxView.swift; sourceTree = "<group>"; };
 		4DF0FF3B2C683C4900CA510B /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		4DF0FF3D2C68423F00CA510B /* HistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -181,6 +183,7 @@
 				4D648BDA2C67538500A79BCD /* ChallengeView.swift */,
 				4D648BDC2C67553800A79BCD /* SandBoxView.swift */,
 				4D3A2AA12C67B938002B4469 /* UserView.swift */,
+				4DF0FF3D2C68423F00CA510B /* HistoryView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -357,6 +360,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4D648BDB2C67538500A79BCD /* ChallengeView.swift in Sources */,
+				4DF0FF3E2C68423F00CA510B /* HistoryView.swift in Sources */,
 				4D648BBC2C672ECD00A79BCD /* HomeView.swift in Sources */,
 				4D3A2AA22C67B938002B4469 /* UserView.swift in Sources */,
 				4D648BDD2C67553800A79BCD /* SandBoxView.swift in Sources */,

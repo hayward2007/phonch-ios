@@ -10,6 +10,7 @@ import SwiftUI
 struct UserView: View {
     
     func history(record: Int, date: String) -> some View {
+        NavigationLink(destination: HistoryView(), label: {
         HStack {
             HStack(spacing: 8) {
                 Image("rank")
@@ -35,7 +36,7 @@ struct UserView: View {
             .padding([.trailing], 12)
             .background(Color("GRAY 800"))
             .cornerRadius(12)
-    }
+        })}
     
     var body: some View {
         VStack(spacing: 24) {
@@ -86,5 +87,7 @@ struct UserView: View {
 }
 
 #Preview {
-    UserView()
+    NavigationStack {
+        UserView()
+    }
 }

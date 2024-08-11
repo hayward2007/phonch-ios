@@ -22,7 +22,7 @@ struct HomeView: View {
                  Spacer()
         
         HStack(spacing: 8) {
-            Image("rank")
+            Image("rank" + (place == 1 ? "_gold" : place == 2 ? "_silver" : place == 3 ? "_bronze" : ""))
                 .frame(width: 20, height: 20)
             
             Text(String(record))
@@ -73,7 +73,7 @@ struct HomeView: View {
                     VStack(alignment: .leading, spacing: 12, content: {
                         if (rank_type == "Today's") {
                             rank(place: 6, name: "sang._.7 (KR)", record: 14, backgroundColor: Color("GREEN"))
-                        } else {
+                        } else {    
                             rank(place: 9, name: "sang._.7 (KR)", record: 25, backgroundColor: Color("GREEN"))
                         }
                         
